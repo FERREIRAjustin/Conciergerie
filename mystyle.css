@@ -251,19 +251,20 @@ main {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 100%;
     background-color: #20345C;
     display: flex;
     justify-content: center;
-    padding: 2%;
+    padding: 2% 3%;
     flex-direction: column;
     transition: 0.5s ease-in-out;
     height: 84%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .card:hover .details {
     left: 50%;
-    width: 46%;
+    width: 44%;
 }
 
 .card .details::before {
@@ -279,20 +280,37 @@ main {
 }
 
 .card .details h3 {
+    display: flex;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 25px;
     line-height: 1.5em;
-
+    margin: 5px 0;
+    width: 100%;
+    background-color: #495f8b;
+    justify-content: center;
 }
 
-p {
-    text-align: justify; 
-    color: #fff;
-    font-size: 0.8em;
-    opacity: 0.85;
+/*------liste de compétence de chaque service----*/
+
+.compétence {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
+
+.compétence li::before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: white; /* Or a color you prefer */
+  }
+
+.compétence li {
+    color: white;
+    font-size: 17px;
+}
+
 
 @media screen and (max-width: 900px) {
     .card {
@@ -307,12 +325,12 @@ p {
         width: 100%;
     }
     .card .details {
-        width: 96%;
+        width: 94%;
     }
     .card:hover .details {
         left: 0;
         top: 100%;
-        width: 96%;
+        width: 94%;
     }
     .card .details::before {
         top: 0;
@@ -339,7 +357,26 @@ p {
         border-bottom: 7px solid transparent;
         border-left: 7px solid #fff;
     }
+    .card .details h3 {
+        font-size: 5.5vw;
+    }
 }
+
+
+@media screen and (max-width: 350px) {
+    .card:hover {
+        width: 100%;
+        margin-bottom: 60%;
+    }
+    .card .details {
+        height: 100%;
+    }
+    .compétence li {
+        color: white;
+        font-size: 13px;
+    }
+}
+
 
 
 /*------A propos------*/
@@ -350,7 +387,6 @@ p {
     font-size: 17px;
     color: black;
   }
-
 
 
 
@@ -371,6 +407,10 @@ textarea {
 	border: 1px solid #ccc;
 	margin-bottom: 10px;
 	width: 98.5%;
+}
+
+textarea {
+    height: 20vh;
 }
 
 .btn-envoie {
@@ -494,4 +534,11 @@ footer {
 
 .copyright {
     margin: 20px 5px;
+}
+
+p {
+    text-align: justify; 
+    color: #fff;
+    font-size: 0.8em;
+    opacity: 0.85;
 }

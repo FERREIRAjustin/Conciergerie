@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Conciergerie des Rochers</title>
         <link rel="stylesheet" href="mystyle.css">
+        <link rel="shortcut icon" href="image/Favicon.png" type="image/x-icon">
     </head>
     <body>
 
@@ -48,7 +49,7 @@
                         </div>
                         <div class="details">
                             <h3>Jardinage</h3>
-                            <ul>
+                            <ul class="compétence">
                                 <li>Entretien de jardins</li>
                                 <li>Tonte de pellouses</li>
                                 <li>Taille de haies</li>
@@ -62,7 +63,7 @@
                         </div>
                         <div class="details">
                             <h3>Vide maison</h3>
-                            <ul>
+                            <ul class="compétence">
                                 <li>Maisons</li>
                                 <li>Caves, Grennier</li>
                                 <li>Parti communes d'himeuble, boxes, ...</li>
@@ -76,7 +77,7 @@
                         </div>
                         <div class="details">
                             <h3>Meubles à monter</h3>
-                            <ul>
+                            <ul class="compétence">
                                 <li>Cuisine</li>
                                 <li>Salle de bain</li>
                                 <li>Chambre à couché, ...</li>
@@ -90,7 +91,7 @@
                         </div>
                         <div class="details">
                             <h3>Ménage et entretien</h3>
-                            <ul>
+                            <ul class="compétence">
                                 <li>Ménages courrant habitation principale et location saisonière</li>
                                 <li>Ménages fin de travaux</li>
                                 <li>Nétoyage verandas et vitres</li>
@@ -105,7 +106,7 @@
                         </div>
                         <div class="details">
                             <h3>Bricolage</h3>
-                            <ul>
+                            <ul class="compétence">
                                 <li>Peinture, électricté, plomberie</li>
                                 <li>Terrasse</li>
                                 <li>Création et pose d'étagères</li>
