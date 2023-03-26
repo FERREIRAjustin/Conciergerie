@@ -253,7 +253,6 @@ main {
     width: 100%;
     background-color: #20345C;
     display: flex;
-    justify-content: center;
     padding: 2% 3%;
     flex-direction: column;
     transition: 0.5s ease-in-out;
