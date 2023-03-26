@@ -7,6 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Conciergerie des Rochers</title>
+        <meta name="description" content="Nous sommes une conciergerie basé sur Penmarch. Nous avons pour secteur d’activité le service aux particuliers et aux entreprises.">
         <link rel="stylesheet" href="mystyle.css">
         <link rel="shortcut icon" href="image/Favicon.png" type="image/x-icon">
     </head>
@@ -51,7 +52,7 @@
                             <h3>Jardinage</h3>
                             <ul class="compétence">
                                 <li>Entretien de jardins</li>
-                                <li>Tonte de pellouses</li>
+                                <li>Tonte de pelouses</li>
                                 <li>Taille de haies</li>
                             </ul>
                         </div>
@@ -65,8 +66,8 @@
                             <h3>Vide maison</h3>
                             <ul class="compétence">
                                 <li>Maisons</li>
-                                <li>Caves, Grennier</li>
-                                <li>Parti communes d'himeuble, boxes, ...</li>
+                                <li>Caves, Greniers</li>
+                                <li>Parties communes d'immeuble, box, ...</li>
                             </ul>
                         </div>
                     </div>
@@ -80,7 +81,7 @@
                             <ul class="compétence">
                                 <li>Cuisine</li>
                                 <li>Salle de bain</li>
-                                <li>Chambre à couché, ...</li>
+                                <li>Chambre à coucher, ...</li>
                             </ul>
                         </div>
                     </div>
@@ -92,10 +93,10 @@
                         <div class="details">
                             <h3>Ménage et entretien</h3>
                             <ul class="compétence">
-                                <li>Ménages courrant habitation principale et location saisonière</li>
-                                <li>Ménages fin de travaux</li>
-                                <li>Nétoyage verandas et vitres</li>
-                                <li>Entretiens parti communes d'himeubles</li>
+                                <li>Ménage courant habitation principale et location saisonnière</li>
+                                <li>Ménage fin de travaux</li>
+                                <li>Nettoyage verandas et vitres</li>
+                                <li>Entretien parties communes d'immeuble</li>
                             </ul>
                         </div>
                     </div>
@@ -107,7 +108,7 @@
                         <div class="details">
                             <h3>Bricolage</h3>
                             <ul class="compétence">
-                                <li>Peinture, électricté, plomberie</li>
+                                <li>Peinture, électricité, plomberie</li>
                                 <li>Terrasse</li>
                                 <li>Création et pose d'étagères</li>
                             </ul>
